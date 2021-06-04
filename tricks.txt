@@ -1,0 +1,5 @@
+override the default css ---go to developer tool, find the class
+                            class = ant-menu-item ant-menu-item-active ant-menu-item-selected sidebar__item 
+                            in css write .ant-menu-item.ant-menu-item-active.ant-menu-item-selected.sidebar__item { background-color:blue;  }
+                             
+                             
