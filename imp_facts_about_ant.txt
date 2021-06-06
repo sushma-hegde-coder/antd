@@ -1,1 +1,1 @@
-You can't make Menu.Item as separate component and import it inside <Menu></Menu> ....... all will be selected
+You can't make Menu.Item as separate component and import it inside <Menu></Menu> ....... all will be selected....use map instead
