@@ -1,0 +1,31 @@
+{
+      title: "Tags",
+      key: "tags",
+      dataIndex: "tags",
+      render: (tags: any) => (
+        <>
+          {tags.map((first: any, second: any, third: any, fourth: any) => {
+            console.log(
+              "first",
+              first,
+              "second",
+              second,
+              "third",
+              third,
+              "fourth",
+              fourth
+            );
+            let color = first.length > 5 ? "red" : "green";
+            if (first === "loser") {
+              color = "black";
+            }
+            return (
+              <Tag color={color} key={fourth}>
+                {first.toUpperCase()}
+                {sayHello()}
+              </Tag>
+            );
+          })}
+        </>
+      ),
+    },
