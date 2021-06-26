@@ -20,7 +20,7 @@
               color = "black";
             }
             return (
-              <Tag color={color} key={fourth}>
+              <Tag color={color}>
                 {first.toUpperCase()}
                 {sayHello()}
               </Tag>
