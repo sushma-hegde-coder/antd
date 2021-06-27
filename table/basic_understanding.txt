@@ -1,0 +1,12 @@
+Table column
+Table data
+
+each row (rendered) executed from left to right
+
+render-takes each row
+{
+  title: "Name",
+  dataIndex: "name", ----name should be in data of table
+  key: "1",
+  render: (tableRow: any) => <>{console.log("tableRow", tableRow)}</>,
+},
