@@ -10,3 +10,15 @@ render-takes each row
   key: "1",
   render: (tableRow: any) => <>{console.log("tableRow", tableRow)}</>,
 },
+
+if dataIndex is not given then row data is not displayed
+
+assume there are 3 col
+name          age           gender     tags
+sushma        24           female      created
+
+starts rendering from const columns
+comes to first row,sees title displays title, sees dataIndex, sees whether it is in const data, if it is there then displays
+"render:" is needed in that col-row where there is no data from user, if you want to display some icons or some tags, you can give any conditions and can display what you want to display accordingly
+
+
