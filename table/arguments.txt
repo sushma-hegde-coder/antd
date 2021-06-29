@@ -1,0 +1,1 @@
+ render: (tableRow: any, tableRow: any, index: number) --first 2 take whole row, last one index
